@@ -6,7 +6,6 @@ import {
   BriefcaseBusiness,
   Building2,
   ChevronRight,
-  Download,
   GraduationCap,
   LockKeyhole,
   Orbit,
@@ -271,16 +270,6 @@ function App() {
                 Go to profile
                 <ArrowUpRight size={18} />
               </a>
-              <a
-                className="icon-action"
-                href="/assets/suproteek-profile.pdf"
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Download resume PDF"
-                title="Download resume PDF"
-              >
-                <Download size={19} />
-              </a>
             </div>
           </div>
 
@@ -450,9 +439,6 @@ function App() {
           </a>
           <a className="secondary-action" href={`mailto:${emailAddress}`}>
             {emailAddress}
-          </a>
-          <a className="icon-action" href="/assets/suproteek-profile.pdf" target="_blank" rel="noreferrer" aria-label="Download resume PDF" title="Download resume PDF">
-            <Download size={18} />
           </a>
         </div>
       </section>
