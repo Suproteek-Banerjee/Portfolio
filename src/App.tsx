@@ -95,7 +95,7 @@ const experiences = [
 const education = [
   {
     school: 'Purdue University',
-    degree: 'Specialization, Cybersecurity',
+    degree: 'Cybersecurity Specialization',
     period: 'January 2026 - December 2026',
   },
   {
