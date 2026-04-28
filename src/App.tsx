@@ -17,7 +17,6 @@ import {
 } from 'lucide-react'
 import './App.css'
 
-const linkedInUrl = 'https://www.linkedin.com/in/suproteek-banerjee'
 const emailAddress = 'banerjeesuproteek2804@gmail.com'
 
 type Project = {
@@ -266,10 +265,6 @@ function App() {
                 View systems
                 <ChevronRight size={18} />
               </a>
-              <a className="secondary-action" href={linkedInUrl} target="_blank" rel="noreferrer">
-                Go to profile
-                <ArrowUpRight size={18} />
-              </a>
             </div>
           </div>
 
@@ -433,10 +428,6 @@ function App() {
           <h2>LinkedIn profile and email channel are live.</h2>
         </div>
         <div className="contact-actions">
-          <a className="primary-action" href={linkedInUrl} target="_blank" rel="noreferrer">
-            Go to profile
-            <ArrowUpRight size={18} />
-          </a>
           <a className="secondary-action" href={`mailto:${emailAddress}`}>
             {emailAddress}
           </a>
