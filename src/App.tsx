@@ -235,7 +235,6 @@ function App() {
           <span>SB.OS</span>
         </a>
         <nav>
-          <a href="#profile">Profile</a>
           <a href="#systems">Systems</a>
           <a href="#resume">Resume</a>
           <a href="#trajectory">Trajectory</a>
@@ -425,7 +424,7 @@ function App() {
             <BriefcaseBusiness size={15} />
             Direct Contact
           </p>
-          <h2>LinkedIn profile and email channel are live.</h2>
+          <h2>Email channel is live.</h2>
         </div>
         <div className="contact-actions">
           <a className="secondary-action" href={`mailto:${emailAddress}`}>
